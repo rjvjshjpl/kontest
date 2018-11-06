@@ -1,0 +1,1186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="KLEE" targetName="gen-random-bout" />
+      <config projectName="KLEE" targetName="klee-replay" />
+      <config projectName="KLEE" targetName="BuildKLEERuntimes" />
+      <config projectName="KLEE" targetName="kleaver" />
+      <config projectName="KLEE" targetName="doc-doxygen" />
+      <config projectName="KLEE" targetName="docs" />
+      <config projectName="KLEE" targetName="kleeRuntest" />
+      <config projectName="KLEE" targetName="check" />
+      <config projectName="KLEE" targetName="kleeBasic" />
+      <config projectName="KLEE" targetName="kleeCore" />
+      <config projectName="KLEE" targetName="kleaverExpr" />
+      <config projectName="KLEE" targetName="systemtests" />
+      <config projectName="KLEE" targetName="kleeSupport" />
+      <config projectName="KLEE" targetName="klee" />
+      <config projectName="KLEE" targetName="clean_runtime" />
+      <config projectName="KLEE" targetName="kleaverSolver" />
+      <config projectName="KLEE" targetName="kleeModule" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration CONFIG_NAME="Debug" GENERATION_OPTIONS="-DUSE_CMAKE_FIND_PACKAGE_LLVM=OFF -DLLVM_CONFIG_BINARY=../../llvm-3.6.2.src/build/bin/llvm-config -DSTP_DIR=../../stp-stp-2.2.0/build -DENABLE_SOLVER_STP=ON -DENABLE_SOLVER_Z3=OFF -DENABLE_UNIT_TESTS=OFF -DENABLE_SYSTEM_TESTS=ON -DENABLE_KLEE_ASSERTS=ON -DKLEE_RUNTIME_BUILD_TYPE=Release -DENABLE_KLEE_UCLIBC=ON -DKLEE_UCLIBC_PATH=../../kontest-uclibc -DENABLE_POSIX_RUNTIME=ON" GENERATION_DIR="Debug" />
+      <configuration CONFIG_NAME="RelWithDebInfo" GENERATION_OPTIONS="-DUSE_CMAKE_FIND_PACKAGE_LLVM=OFF -DLLVM_CONFIG_BINARY=../../llvm-3.6.2.src/build/bin/llvm-config -DSTP_DIR=../../stp-stp-2.2.0/build -DENABLE_SOLVER_STP=ON -DENABLE_SOLVER_Z3=OFF -DENABLE_UNIT_TESTS=OFF -DENABLE_SYSTEM_TESTS=OFF -DENABLE_KLEE_ASSERTS=ON -DKLEE_RUNTIME_BUILD_TYPE=Release -DENABLE_KLEE_UCLIBC=ON -DKLEE_UCLIBC_PATH=../../kontest-uclibc -DENABLE_POSIX_RUNTIME=ON" GENERATION_DIR="Release+Asserts" />
+      <configuration CONFIG_NAME="Release" GENERATION_OPTIONS="-DUSE_CMAKE_FIND_PACKAGE_LLVM=OFF -DLLVM_CONFIG_BINARY=../../llvm-3.6.2.src/build/bin/llvm-config -DSTP_DIR=../../stp-stp-2.2.0/build -DENABLE_SOLVER_STP=ON -DENABLE_SOLVER_Z3=OFF -DENABLE_UNIT_TESTS=OFF -DENABLE_SYSTEM_TESTS=OFF -DENABLE_KLEE_ASSERTS=OFF -DKLEE_RUNTIME_BUILD_TYPE=Release -DENABLE_KLEE_UCLIBC=ON -DKLEE_UCLIBC_PATH=../../kontest-uclibc -DENABLE_POSIX_RUNTIME=ON" GENERATION_DIR="Release" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="42371dfc-fbb7-4dd4-af37-7c8f20b053c3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/builds/Debug/" />
+    <ignored path="$PROJECT_DIR$/Debug/" />
+    <ignored path="$PROJECT_DIR$/Release/" />
+    <ignored path="$PROJECT_DIR$/Release+Asserts/" />
+    <ignored path="$PROJECT_DIR$/CMakeFiles/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="KLEE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Executor.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/Core/Executor.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="1645" column="19" lean-forward="false" selection-start-line="1645" selection-start-column="19" selection-end-line="1645" selection-end-column="19" />
+              <folding>
+                <element signature="e#343#364#0" expanded="true" />
+                <element signature="e#2024#2406#0" expanded="true" />
+                <element signature="e#8303#8525#0" expanded="true" />
+                <marker date="1498171790082" expanded="false" signature="2755:2784" ph="..." />
+                <marker date="1498171790082" expanded="false" signature="13456:13672" ph="..." />
+                <marker date="1498171790082" expanded="false" signature="13723:13879" ph="..." />
+                <marker date="1498171790082" expanded="true" signature="40081:40538" ph="{...}" />
+                <marker date="1498171790082" expanded="false" signature="49752:49801" ph="..." />
+                <marker date="1498171790082" expanded="true" signature="108649:108875" ph="{...}" />
+                <marker date="1498171790082" expanded="true" signature="122426:122738" ph="{...}" />
+                <marker date="1498171790082" expanded="true" signature="122859:127294" ph="{...}" />
+                <marker date="1498171790082" expanded="true" signature="141743:142184" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="file-creator.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools/klee-replay/file-creator.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8091">
+              <caret line="432" column="17" lean-forward="false" selection-start-line="432" selection-start-column="17" selection-end-line="432" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ref.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/klee/util/Ref.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="APInt.h" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/llvm-3.4.2.src/include/llvm/ADT/APInt.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="403" column="0" lean-forward="false" selection-start-line="403" selection-start-column="0" selection-end-line="403" selection-end-column="0" />
+              <folding>
+                <marker date="1384619141000" expanded="true" signature="11123:11151" ph="{...}" />
+                <marker date="1384619141000" expanded="true" signature="23388:23533" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="system.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Release/coreutils/coreutils-6.10/src/system.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="463">
+              <caret line="407" column="10" lean-forward="false" selection-start-line="407" selection-start-column="10" selection-end-line="407" selection-end-column="10" />
+              <folding>
+                <marker date="1200561588000" expanded="false" signature="6441:6488" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fd_init.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/runtime/POSIX/fd_init.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1460">
+              <caret line="73" column="43" lean-forward="false" selection-start-line="73" selection-start-column="43" selection-end-line="73" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="klee-replay.c" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tools/klee-replay/klee-replay.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="58" column="11" lean-forward="false" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="klee_init_env.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/runtime/POSIX/klee_init_env.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3020">
+              <caret line="151" column="28" lean-forward="false" selection-start-line="151" selection-start-column="28" selection-end-line="151" selection-end-column="28" />
+              <folding>
+                <marker date="1498070491998" expanded="false" signature="394:421" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Executor.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/Core/Executor.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2440">
+              <caret line="122" column="16" lean-forward="false" selection-start-line="122" selection-start-column="16" selection-end-line="122" selection-end-column="16" />
+              <folding>
+                <element signature="e#576#608#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConcolicTest.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/Core/ConcolicTest.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="33" column="30" lean-forward="false" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+              <folding>
+                <element signature="e#103#139#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConcolicTest.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/Core/ConcolicTest.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+              <folding>
+                <element signature="e#42#67#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools/klee/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9400">
+              <caret line="470" column="21" lean-forward="false" selection-start-line="470" selection-start-column="21" selection-end-line="470" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Memory.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/Core/Memory.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1520">
+              <caret line="76" column="23" lean-forward="false" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddressSpace.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/Core/AddressSpace.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3740">
+              <caret line="187" column="0" lean-forward="false" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
+              <folding>
+                <element signature="e#343#368#0" expanded="true" />
+                <marker date="1497567167376" expanded="true" signature="1895:2056" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Memory.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/Core/Memory.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2040">
+              <caret line="102" column="3" lean-forward="false" selection-start-line="102" selection-start-column="3" selection-end-line="102" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExecutionState.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/klee/ExecutionState.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3580">
+              <caret line="179" column="52" lean-forward="false" selection-start-line="179" selection-start-column="52" selection-end-line="179" selection-end-column="52" />
+              <folding>
+                <element signature="e#550#590#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>score2</find>
+      <find>getopt_long (</find>
+      <find>m</find>
+      <find>md</find>
+      <find>md2</find>
+      <find>klee</find>
+      <find>runTest(</find>
+      <find>--</find>
+      <find>: --h</find>
+      <find>150</find>
+      <find>testcompara</find>
+      <find>conc: 0</find>
+      <find>generate</find>
+      <find>instsSinceCovNew</find>
+      <find>md2u</find>
+      <find>generateConcol</find>
+      <find>new concolc</find>
+      <find>GETOPT_HELP_CHAR</find>
+      <find>br:</find>
+      <find>arg: --h</find>
+      <find>runTest</find>
+      <find>conc:</find>
+      <find>LLVM_</find>
+      <find>LLVM_V</find>
+      <find>LLVM_VER</find>
+      <find>LLVM_VERS</find>
+      <find>LLVM_VERSIO</find>
+      <find>LLVM_VERSION</find>
+      <find>rtti</find>
+      <find>llvm::errs()</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>const llvm::APInt&amp;</replace>
+      <replace>const llvm::APInt*</replace>
+      <replace>concreteArguments[1]-&gt;getZExt</replace>
+      <replace>concreteArguments[3]-&gt;getZExt</replace>
+      <replace>const llvm::APInt *</replace>
+      <replace>concreteArguments[3].</replace>
+      <replace>concreteValue</replace>
+      <replace>uint64_t *</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$USER_HOME$/llvm-3.4.2.src</dir>
+      <dir>$PROJECT_DIR$/docs</dir>
+      <dir>$PROJECT_DIR$/tools</dir>
+      <dir>$PROJECT_DIR$/include</dir>
+      <dir>$PROJECT_DIR$/runtime/Intrinsic</dir>
+      <dir>$PROJECT_DIR$/lib</dir>
+      <dir>$PROJECT_DIR$/</dir>
+      <dir>$USER_HOME$/klee-uclibc</dir>
+      <dir>$PROJECT_DIR$/Release/coreutils</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/lib/Core/ConcolicExecutor.h" />
+        <option value="$PROJECT_DIR$/Debug/mytest/test2.c" />
+        <option value="$PROJECT_DIR$/include/klee/Internal/Module/Cell.h" />
+        <option value="$PROJECT_DIR$/Release+Asserts/mytest/test.c" />
+        <option value="$PROJECT_DIR$/Debug/mytest/test.c" />
+        <option value="$PROJECT_DIR$/include/klee/SolverImpl.h" />
+        <option value="$PROJECT_DIR$/lib/Expr/Constraints.cpp" />
+        <option value="$PROJECT_DIR$/lib/Core/AddressSpace.h" />
+        <option value="$PROJECT_DIR$/include/klee/ExecutionState.h" />
+        <option value="$PROJECT_DIR$/lib/Core/ExecutionState.cpp" />
+        <option value="$PROJECT_DIR$/lib/Solver/Solver.cpp" />
+        <option value="$PROJECT_DIR$/include/klee/Solver.h" />
+        <option value="$PROJECT_DIR$/lib/Core/TimingSolver.h" />
+        <option value="$PROJECT_DIR$/lib/Core/TimingSolver.cpp" />
+        <option value="$PROJECT_DIR$/include/klee/Internal/ADT/ImmutableSet.h" />
+        <option value="$PROJECT_DIR$/include/klee/Internal/ADT/ImmutableTree.h" />
+        <option value="$PROJECT_DIR$/runtime/Makefile.cmake.bitcode.config.in" />
+        <option value="$PROJECT_DIR$/runtime/Makefile.cmake.bitcode.rules" />
+        <option value="$PROJECT_DIR$/lib/Module/ModuleUtil.cpp" />
+        <option value="$PROJECT_DIR$/lib/Module/Optimize.cpp" />
+        <option value="$PROJECT_DIR$/runtime/Intrinsic/memmove.c" />
+        <option value="$PROJECT_DIR$/lib/Module/KModule.cpp" />
+        <option value="$PROJECT_DIR$/lib/Core/AddressSpace.cpp" />
+        <option value="$PROJECT_DIR$/include/klee/util/Ref.h" />
+        <option value="$PROJECT_DIR$/runtime/POSIX/fd.c" />
+        <option value="$PROJECT_DIR$/include/klee/klee.h" />
+        <option value="$PROJECT_DIR$/test/Feature/IsSymbolic.c" />
+        <option value="$PROJECT_DIR$/lib/Core/SpecialFunctionHandler.h" />
+        <option value="$PROJECT_DIR$/lib/Core/SpecialFunctionHandler.cpp" />
+        <option value="$PROJECT_DIR$/lib/Core/StatsTracker.cpp" />
+        <option value="$PROJECT_DIR$/tools/klee-stats/klee-stats" />
+        <option value="$PROJECT_DIR$/runtime/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/lib/Core/Memory.h" />
+        <option value="$PROJECT_DIR$/lib/Core/Memory.cpp" />
+        <option value="$PROJECT_DIR$/runtime/Intrinsic/klee_range.c" />
+        <option value="$PROJECT_DIR$/lib/Core/ConcolicTest.h.h" />
+        <option value="$PROJECT_DIR$/lib/Core/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/include/klee/Interpreter.h" />
+        <option value="$PROJECT_DIR$/lib/Core/ConcolicTest.cpp" />
+        <option value="$PROJECT_DIR$/lib/Core/Executor.h" />
+        <option value="$PROJECT_DIR$/runtime/Intrinsic/klee_int.c" />
+        <option value="$PROJECT_DIR$/tools/klee/main.cpp" />
+        <option value="$PROJECT_DIR$/include/klee/util/PrintContext.h" />
+        <option value="$PROJECT_DIR$/runtime/POSIX/klee_init_env.c" />
+        <option value="$USER_HOME$/klee-uclibc/libc/string/memmove.c" />
+        <option value="$PROJECT_DIR$/runtime/POSIX/fd_init.c" />
+        <option value="$PROJECT_DIR$/lib/Core/ConcolicTest.h" />
+        <option value="$PROJECT_DIR$/tools/klee-replay/file-creator.c" />
+        <option value="$PROJECT_DIR$/lib/Core/Executor.cpp" />
+        <option value="$PROJECT_DIR$/tools/klee-replay/klee-replay.c" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="70" />
+    <option name="y" value="24" />
+    <option name="width" value="1839" />
+    <option name="height" value="1075" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Release/coreutils" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.klee posix (Rel)">
+    <configuration default="true" type="CLion_Remote" factoryName="GDB Remote Debug" remoteCommand="" symbolFile="" sysroot="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="concolic-klee" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="concolic-klee" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="concolic-klee" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="concolic-klee" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="concolic-klee" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="concolic-klee" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="check" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="KLEE" TARGET_NAME="check" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="systemtests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="KLEE" TARGET_NAME="systemtests" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="make check" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="check" WORKING_DIR="file://$PROJECT_DIR$/Debug" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_PATH="/usr/bin/make" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="klee (RelWithDeb)" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-no-output -optimize dms-tree.bc" WORKING_DIR="file://$PROJECT_DIR$/Release+Asserts/mytest" PASS_PARENT_ENVS_2="true" PROJECT_NAME="KLEE" TARGET_NAME="klee" CONFIG_NAME="RelWithDebInfo" RUN_TARGET_PROJECT_NAME="KLEE" RUN_TARGET_NAME="klee">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="klee (Rel)" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-optimize -only-output-states-covering-new --libc=uclibc --posix-runtime --run-in=workspace ./pr.bc --sym-arg 2 --sym-arg 2 --sym-arg 10 --sym-files 1 8 --sym-stdin 8" WORKING_DIR="file://$PROJECT_DIR$/Release/coreutils/coreutils-6.10/obj-llvm/src" PASS_PARENT_ENVS_2="true" PROJECT_NAME="KLEE" TARGET_NAME="klee" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="KLEE" RUN_TARGET_NAME="klee">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="klee posix (Rel)" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-simplify-sym-indices -disable-inlining -optimize -only-output-states-covering-new -allow-external-sym-calls --libc=uclibc --posix-runtime -max-sym-array-size=4096 --run-in=/tmp/csplit.bc.sandbox ./csplit.bc --sym-args 0 1 10 --sym-args 0 2 2 --sym-files 1 8 --sym-stdin 8 --sym-stdout" WORKING_DIR="file://$PROJECT_DIR$/Release/coreutils/coreutils-6.10/obj-llvm/src/batchA" PASS_PARENT_ENVS_2="true" PROJECT_NAME="KLEE" TARGET_NAME="klee" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="KLEE" RUN_TARGET_NAME="klee">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="klee-replay (Rel)" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="echo ../../obj-llvm/src/batchA/echo.bc.klee-out/test000001.ktest" WORKING_DIR="file://$PROJECT_DIR$/Release/coreutils/coreutils-6.10/obj-gcov/src" PASS_PARENT_ENVS_2="true" PROJECT_NAME="KLEE" TARGET_NAME="klee-replay" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="KLEE" RUN_TARGET_NAME="klee-replay">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="klee-replay (RelWithDeb)" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="echo ../../obj-llvm/src/batchA/echo.bc.klee-out/test000001.ktest" WORKING_DIR="file://$PROJECT_DIR$/Release/coreutils/coreutils-6.10/obj-gcov/src" PASS_PARENT_ENVS_2="true" PROJECT_NAME="KLEE" TARGET_NAME="klee-replay" CONFIG_NAME="RelWithDebInfo" RUN_TARGET_PROJECT_NAME="KLEE" RUN_TARGET_NAME="klee-replay">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="doc-doxygen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="KLEE" TARGET_NAME="doc-doxygen" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="docs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="KLEE" TARGET_NAME="docs" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="kleeBasic" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="KLEE" TARGET_NAME="kleeBasic" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="kleeCore" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="KLEE" TARGET_NAME="kleeCore" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="kleaverExpr" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="KLEE" TARGET_NAME="kleaverExpr" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="kleeModule" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="KLEE" TARGET_NAME="kleeModule" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="kleaverSolver" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="KLEE" TARGET_NAME="kleaverSolver" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="kleeSupport" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="KLEE" TARGET_NAME="kleeSupport" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="BuildKLEERuntimes" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="KLEE" TARGET_NAME="BuildKLEERuntimes" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="clean_runtime" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="KLEE" TARGET_NAME="clean_runtime" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="kleeRuntest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="KLEE" TARGET_NAME="kleeRuntest" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="gen-random-bout" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="KLEE" TARGET_NAME="gen-random-bout" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="KLEE" RUN_TARGET_NAME="gen-random-bout">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="kleaver" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="KLEE" TARGET_NAME="kleaver" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="KLEE" RUN_TARGET_NAME="kleaver">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="klee-replay" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="echo ../../obj-llvm/src/batchA/echo.bc.klee-out/test000001.ktest" WORKING_DIR="file://$PROJECT_DIR$/Release/coreutils/coreutils-6.10/obj-gcov/src" PASS_PARENT_ENVS_2="true" PROJECT_NAME="KLEE" TARGET_NAME="klee-replay" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="KLEE" RUN_TARGET_NAME="klee-replay">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="klee 2" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="--libc=klee -no-output -exit-on-error -optimize -disable-inlining -use-cex-cache -max-symbolic-tests=20 Output/ImmutableSet.cpp.tmp1.bc" WORKING_DIR="file://$PROJECT_DIR$/Debug/test/Dogfood" PASS_PARENT_ENVS_2="true" PROJECT_NAME="KLEE" TARGET_NAME="klee" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="KLEE" RUN_TARGET_NAME="klee">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="klee 3" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="--libc=uclibc --posix-runtime --exit-on-error Output/DirConsistency.c.tmp.bc --sym-files 1 1 --run-in=blah" WORKING_DIR="file://$PROJECT_DIR$/Debug/test/Runtime/POSIX" PASS_PARENT_ENVS_2="true" PROJECT_NAME="KLEE" TARGET_NAME="klee" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="KLEE" RUN_TARGET_NAME="klee">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="klee" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-no-output -optimize dms-tree.bc" WORKING_DIR="file://$PROJECT_DIR$/Debug/mytest" PASS_PARENT_ENVS_2="true" PROJECT_NAME="KLEE" TARGET_NAME="klee" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="KLEE" RUN_TARGET_NAME="klee">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="klee posix" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-simplify-sym-indices -disable-inlining -optimize -allow-external-sym-calls --libc=uclibc --posix-runtime -max-sym-array-size=4096 --run-in=/tmp/csplit.bc.sandbox ./csplit.bc --sym-args 0 1 10 --sym-args 0 2 2 --sym-files 1 8 --sym-stdin 8 --sym-stdout" WORKING_DIR="file://$PROJECT_DIR$/Release/coreutils/coreutils-6.10/obj-llvm/src/batchA" PASS_PARENT_ENVS_2="true" PROJECT_NAME="KLEE" TARGET_NAME="klee" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="KLEE" RUN_TARGET_NAME="klee">
+      <envs />
+      <method />
+    </configuration>
+    <list size="27">
+      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="1" class="java.lang.String" itemvalue="Application.check" />
+      <item index="2" class="java.lang.String" itemvalue="Application.systemtests" />
+      <item index="3" class="java.lang.String" itemvalue="Application.make check" />
+      <item index="4" class="java.lang.String" itemvalue="Application.klee (RelWithDeb)" />
+      <item index="5" class="java.lang.String" itemvalue="Application.klee (Rel)" />
+      <item index="6" class="java.lang.String" itemvalue="Application.klee posix (Rel)" />
+      <item index="7" class="java.lang.String" itemvalue="Application.klee-replay (Rel)" />
+      <item index="8" class="java.lang.String" itemvalue="Application.klee-replay (RelWithDeb)" />
+      <item index="9" class="java.lang.String" itemvalue="Application.doc-doxygen" />
+      <item index="10" class="java.lang.String" itemvalue="Application.docs" />
+      <item index="11" class="java.lang.String" itemvalue="Application.kleeBasic" />
+      <item index="12" class="java.lang.String" itemvalue="Application.kleeCore" />
+      <item index="13" class="java.lang.String" itemvalue="Application.kleaverExpr" />
+      <item index="14" class="java.lang.String" itemvalue="Application.kleeModule" />
+      <item index="15" class="java.lang.String" itemvalue="Application.kleaverSolver" />
+      <item index="16" class="java.lang.String" itemvalue="Application.kleeSupport" />
+      <item index="17" class="java.lang.String" itemvalue="Application.BuildKLEERuntimes" />
+      <item index="18" class="java.lang.String" itemvalue="Application.clean_runtime" />
+      <item index="19" class="java.lang.String" itemvalue="Application.kleeRuntest" />
+      <item index="20" class="java.lang.String" itemvalue="Application.gen-random-bout" />
+      <item index="21" class="java.lang.String" itemvalue="Application.kleaver" />
+      <item index="22" class="java.lang.String" itemvalue="Application.klee-replay" />
+      <item index="23" class="java.lang.String" itemvalue="Application.klee 2" />
+      <item index="24" class="java.lang.String" itemvalue="Application.klee 3" />
+      <item index="25" class="java.lang.String" itemvalue="Application.klee" />
+      <item index="26" class="java.lang.String" itemvalue="Application.klee posix" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="70" y="24" width="1839" height="1075" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19520357" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33192834" sideWeight="0.49358618" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34457323" sideWeight="0.49470162" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34457323" sideWeight="0.5052984" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28451002" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39409906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19494204" sideWeight="0.5" order="11" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931355" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32911393" sideWeight="0.49586776" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34599155" sideWeight="0.49714285" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970026" sideWeight="0.5041322" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19523017" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10970464" sideWeight="0.5" order="11" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28481013" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978904" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/lib/Core/Executor.cpp</url>
+          <line>2808</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/tools/klee/main.cpp</url>
+          <line>415</line>
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="232" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lib/Core/AddressSpace.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3740">
+          <caret line="187" column="0" lean-forward="false" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
+          <folding>
+            <element signature="e#343#368#0" expanded="true" />
+            <marker date="1497567167376" expanded="true" signature="1895:2056" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/x86_64-linux-gnu/asm/unistd_64.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Solver/CachingSolver.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="233" column="0" lean-forward="false" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Solver/CexCachingSolver.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="222" column="0" lean-forward="true" selection-start-line="222" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Solver/STPSolver.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="353" column="0" lean-forward="false" selection-start-line="353" selection-start-column="0" selection-end-line="353" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Core/ExternalDispatcher.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="266" column="0" lean-forward="false" selection-start-line="266" selection-start-column="0" selection-end-line="266" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Basic/KTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-298">
+          <caret line="177" column="4" lean-forward="false" selection-start-line="177" selection-start-column="4" selection-end-line="177" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runtime/POSIX/fd.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="43" column="19" lean-forward="false" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runtime/POSIX/fd.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="675" column="22" lean-forward="false" selection-start-line="675" selection-start-column="22" selection-end-line="675" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/klee-uclibc/libc/string/mempcpy.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/klee-uclibc/libc/string/memset.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Release/coreutils/coreutils-6.10/src/csplit.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="1382" column="0" lean-forward="false" selection-start-line="1382" selection-start-column="0" selection-end-line="1382" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runtime/Intrinsic/memcpy.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runtime/Intrinsic/memmove.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/klee-uclibc/libc/string/basename.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/klee-uclibc/libc/string/bcopy.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/klee-uclibc/libc/string/memmove.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/klee/klee.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="134" column="36" lean-forward="true" selection-start-line="134" selection-start-column="36" selection-end-line="134" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/klee-replay/klee-replay.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/klee/Expr.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="540" column="8" lean-forward="false" selection-start-line="540" selection-start-column="2" selection-end-line="540" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Core/ExecutionState.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2120">
+          <caret line="106" column="37" lean-forward="false" selection-start-line="106" selection-start-column="37" selection-end-line="106" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/4.8/bits/basic_string.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="2555" column="12" lean-forward="false" selection-start-line="2555" selection-start-column="12" selection-end-line="2555" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/klee/Interpreter.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="45" column="15" lean-forward="false" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runtime/Intrinsic/klee_range.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="21" column="61" lean-forward="false" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/linux/limits.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/x86_64-linux-gnu/bits/stat.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="184" column="8" lean-forward="false" selection-start-line="184" selection-start-column="8" selection-end-line="184" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/x86_64-linux-gnu/sys/stat.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="111" column="25" lean-forward="true" selection-start-line="111" selection-start-column="25" selection-end-line="111" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runtime/POSIX/fd_init.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1460">
+          <caret line="73" column="43" lean-forward="false" selection-start-line="73" selection-start-column="43" selection-end-line="73" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/klee/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9400">
+          <caret line="470" column="21" lean-forward="false" selection-start-line="470" selection-start-column="21" selection-end-line="470" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runtime/POSIX/klee_init_env.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3020">
+          <caret line="151" column="28" lean-forward="false" selection-start-line="151" selection-start-column="28" selection-end-line="151" selection-end-column="28" />
+          <folding>
+            <marker date="1498070491998" expanded="false" signature="394:421" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/getopt.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-173">
+          <caret line="79" column="18" lean-forward="false" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
+          <folding>
+            <element signature="e#6151#6489#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Release/coreutils/coreutils-6.10/lib/getopt1.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Release/coreutils/coreutils-6.10/lib/getopt.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="495" column="28" lean-forward="false" selection-start-line="495" selection-start-column="28" selection-end-line="495" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Core/Searcher.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4440">
+          <caret line="222" column="19" lean-forward="false" selection-start-line="222" selection-start-column="19" selection-end-line="222" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Core/StatsTracker.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1160">
+          <caret line="58" column="12" lean-forward="false" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Core/StatsTracker.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3600">
+          <caret line="180" column="22" lean-forward="false" selection-start-line="180" selection-start-column="22" selection-end-line="180" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Expr/Expr.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="1183" column="8" lean-forward="false" selection-start-line="1183" selection-start-column="8" selection-end-line="1183" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Core/UserSearcher.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="66" column="11" lean-forward="false" selection-start-line="66" selection-start-column="11" selection-end-line="66" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Core/ConcolicTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="e#42#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Core/Executor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2440">
+          <caret line="122" column="16" lean-forward="false" selection-start-line="122" selection-start-column="16" selection-end-line="122" selection-end-column="16" />
+          <folding>
+            <element signature="e#576#608#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/limits.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="96" column="9" lean-forward="false" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Release/coreutils/coreutils-6.10/src/system.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="407" column="10" lean-forward="false" selection-start-line="407" selection-start-column="10" selection-end-line="407" selection-end-column="10" />
+          <folding>
+            <marker date="1200561588000" expanded="false" signature="6441:6488" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Expr/Constraints.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="77" column="24" lean-forward="false" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/klee/Constraints.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/llvm-3.4.2.src/include/llvm/ADT/APInt.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="403" column="0" lean-forward="false" selection-start-line="403" selection-start-column="0" selection-end-line="403" selection-end-column="0" />
+          <folding>
+            <marker date="1384619141000" expanded="true" signature="11123:11151" ph="{...}" />
+            <marker date="1384619141000" expanded="true" signature="23388:23533" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/klee/util/Ref.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Core/ConcolicTest.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="33" column="30" lean-forward="false" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+          <folding>
+            <element signature="e#103#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/klee-replay/file-creator.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8091">
+          <caret line="432" column="17" lean-forward="false" selection-start-line="432" selection-start-column="17" selection-end-line="432" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Core/Executor.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="1645" column="19" lean-forward="false" selection-start-line="1645" selection-start-column="19" selection-end-line="1645" selection-end-column="19" />
+          <folding>
+            <element signature="e#343#364#0" expanded="true" />
+            <element signature="e#2024#2406#0" expanded="true" />
+            <element signature="e#8303#8525#0" expanded="true" />
+            <marker date="1498171790082" expanded="false" signature="2755:2784" ph="..." />
+            <marker date="1498171790082" expanded="false" signature="13456:13672" ph="..." />
+            <marker date="1498171790082" expanded="false" signature="13723:13879" ph="..." />
+            <marker date="1498171790082" expanded="true" signature="40081:40538" ph="{...}" />
+            <marker date="1498171790082" expanded="false" signature="49752:49801" ph="..." />
+            <marker date="1498171790082" expanded="true" signature="108649:108875" ph="{...}" />
+            <marker date="1498171790082" expanded="true" signature="122426:122738" ph="{...}" />
+            <marker date="1498171790082" expanded="true" signature="122859:127294" ph="{...}" />
+            <marker date="1498171790082" expanded="true" signature="141743:142184" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="212" column="26" lean-forward="false" selection-start-line="212" selection-start-column="26" selection-end-line="212" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/klee-replay/klee-replay.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="58" column="11" lean-forward="false" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
